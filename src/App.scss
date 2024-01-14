@@ -1,0 +1,176 @@
+// menu da pagina
+
+body .Menu{
+    border: 3px solid #556B2F ;
+    border-radius: 10px;
+    width: 1450px;
+    height: 75px;
+    background-color:#556B2F ;
+}
+
+body .Menu img{
+    width: 65px;
+    margin-left: 1300px;
+    margin-top: -55px;
+}
+
+.Text ul li{
+    list-style: none;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-left: 250px;
+}
+
+.Text span{
+    padding-left: 5px;
+    
+}
+
+.Text a{
+    color: #FFFFFF;
+}
+
+.Text span a:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+// corpo da pagina
+
+h1{
+    
+    color: #556B2F;
+    font-family: Arial;
+    text-align: center;
+    animation-duration: 15s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+     
+}
+
+
+
+.body img{
+    width: 15%; 
+    margin-bottom: -400px;
+    margin-left: 95px; 
+    padding-left: 55px;  
+}
+
+.body #boot{
+    width: 220px;
+    height:120px;
+    border: 5px solid olive; 
+    padding-bottom: 220px;
+    background-color: olive;
+}
+.body #boot:hover{
+    box-shadow: #556B2F;
+    background-color: #556B2F;
+}
+
+.body #Tshirt{
+    width: 220px;
+    height:250px;
+    border: 5px solid olive; 
+    padding-bottom: 120px;
+    background-color: olive;  
+}
+
+.body #Tshirt:hover{
+    box-shadow: #556B2F;
+    background-color: #556B2F;
+}
+.body #whistle{
+    width: 220px;
+    height:250px;
+    border: 5px solid olive; 
+    padding-bottom: 120px; 
+    background-color: olive; 
+}
+
+.body #whistle:hover{
+    box-shadow: #556B2F;
+    background-color: #556B2F;
+    
+}
+
+.body #freight{
+    width: 1000px;
+    margin-bottom: -800px;
+    
+}
+.body h5{
+    color: #556B2F;
+    font-family: Arial;
+}
+.body #contact{
+    margin-left: 1220px;
+   
+}
+
+#contact input{
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+}
+
+
+#contact textarea{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    width: 200px;
+    height: 90px;
+}
+
+#contact button{
+    color: #FFFFFF;
+    background-color: #556B2F;
+    border: 3px solid #556B2F;
+    border-radius: 5px;
+}
+#contact button:hover{
+    color: #556B2F;
+    background-color: #FFFFFF;
+    border: 3px solid #556B2F;
+    border-radius: 5px;
+}
+
+// menu inferior da pagina
+
+.menubottom{
+    color: #FFFFFF;
+    font-family: Arial;
+    margin-top: 600px;
+    border: 3px solid #556B2F;
+    border-radius: 10px;
+    background-color: #556B2F;
+    padding-left: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menubottom li{
+    list-style: none;
+}
+
+h2{
+    color: black;
+}
+
+
+//animação
+
+
+@keyframes animate{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
